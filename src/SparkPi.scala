@@ -1,11 +1,11 @@
-package org.apache.spark.examples
+package org.test
 
 import scala.math.random
 
 import org.apache.spark.sql.SparkSession
 
 /** Computes an approximation to pi */
-object example {
+object SparkPi {
   def main(args: Array[String]) {
     val spark = SparkSession
       .builder
